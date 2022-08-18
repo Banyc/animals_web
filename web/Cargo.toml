@@ -1,0 +1,13 @@
+[package]
+name = "animals_web"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+web-sys = "0.3.59"
+yew = "0.19.3"
+yew-router = "0.16.0"
+internal = { path = "../internal" }
+lazy_static = "1.4.0"
